@@ -1,0 +1,359 @@
+/* General Styles */
+body {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Sarabun", sans-serif;
+    font-weight: 400;
+}
+p{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #8f8f8f;
+}
+
+/* Buttons Section */
+.button {
+    -webkit-border-radius: 33;
+    -moz-border-radius: 33;
+    border-radius: 33px;
+    font-family: Arial;
+    color: #0a030a;
+    font-size: 20px;
+    background: #eb6a07;
+    padding: 12px 20px 12px 20px;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background: #807e78;
+    text-decoration: none;
+  }
+.get-started-btn{
+    margin-bottom: 70px;
+}
+/* Navigation Bar */
+.navbar {
+    background-color: #eb6a07!important; 
+    padding: 15px 10px;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #807e78!important;
+}
+
+.dropdown-menu {
+    background-color: #eb6a07;
+    border: none;
+}
+
+.navbar .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+    color: #807e78;
+    background-color: transparent;
+}
+
+/* Banner Section */
+#banner {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.699)50%,rgba(0, 0, 0, 0.699))50%,url('Images/banner.jpg');
+    /* background-color: #F0F3FF; */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.banner h1 {
+    font-size: 4em;
+    margin-bottom: 0.5em;
+}
+
+.banner p {
+    font-size: 1.5em;
+}
+
+.banner .btn {
+    margin-top: 1em;
+}
+
+.mini-banner{
+    padding-right: 100px;
+}
+
+.award-box {
+    background: rgba(133, 87, 1, 0.705);
+    border-radius: 5px;
+    padding: 1.5em;
+}
+
+.float{
+    padding-top: 70px;
+}
+
+.img-float{
+    width: 100%;
+}
+
+
+/* Features Section */
+#features {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+#features .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.feature-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+    flex: 1 1 calc(33.333% - 40px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.icons{
+    color: #FF5F00;
+    margin-bottom: 30px;
+}
+
+.feature-box i {
+    color: #007bff;
+    font-size: 3em;
+    margin-bottom: 1em;
+    transition: color 0.3s ease-in-out;
+}
+
+.feature-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    transition: color 0.3s ease-in-out;
+}
+
+.feature-box p {
+    flex: 1;
+    transition: color 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.feature-box:hover i,
+.feature-box:hover h3,
+.feature-box:hover p {
+    color: #eb6a07;
+}
+
+/* Press Section */
+#press {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+#press:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#press img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+#press img:hover {
+    transform: scale(1.05);
+}
+
+/* Projects Section */
+.project-box {
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+}
+.project-box img {
+    width: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-box:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.project-box h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+.project-box p {
+    margin-top: 10px;
+    color: #555;
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+    background-color: #f9f9f9;
+}
+
+#testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF5F00;
+}
+
+#testimonials p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.testimonial-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-image-wrapper {
+    margin-bottom: 20px;
+}
+
+.testimonial-image-wrapper img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #FF5F00;
+}
+
+.testimonial-box h3 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #FF5F00;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icons a {
+    color: #FF5F00;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
+
+/* Statistics Section */
+#statistics h3 {
+    color: #FF5F00;
+    font-size: 2.5em;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #FF5F00;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer h5 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.footer .subscribe-form {
+    max-width: 300px;
+}
+
+.footer .form-control {
+    border-radius: 0;
+}
+
+.footer .btn-primary {
+    border-radius: 0;
+    background-color: #00695c;
+    border-color: #00695c;
+}
+
+.footer .btn-primary:hover {
+    background-color: #004d40;
+    border-color: #004d40;
+}
+
+.footer .form-check-label {
+    font-size: 0.9rem;
+    color: white;
+}
+
+.footer .list-inline-item a {
+    color: white;
+    font-size: 0.9rem;
+}
+
+.footer .list-inline-item a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #f9f9f9;
+}
